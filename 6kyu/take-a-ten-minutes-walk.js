@@ -19,7 +19,7 @@ function isValidWalk(w) {
         d[w[i]] = (d[w[i]] || 0) + 1
     }
 
-    return (d.n === d.s && d.e === d.w) && w.length === 10 ? true : false
+    return (d.n === d.s && d.e === d.w) && w.length === 10
 }
 
 // 🏁 Example usage:
